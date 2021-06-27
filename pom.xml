@@ -57,19 +57,6 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>yuan-nexus-releases</id>
-            <name>yuan-nexus-releases</name>
-            <url>http://192.168.1.151:1200/repository/maven-public/</url>
-        </repository>
-        <snapshotRepository>
-            <id>yuan-nexus-snapshots</id>
-            <name>yuan-nexus-snapshots</name>
-            <url>http://192.168.1.151:1200/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <build>
         <plugins>
             <!-- 不忽略deploy -->
