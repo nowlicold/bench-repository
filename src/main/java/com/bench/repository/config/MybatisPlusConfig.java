@@ -4,6 +4,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import com.baomidou.mybatisplus.annotation.DbType;
@@ -21,7 +22,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.dialects.MySqlDiale
  */
 @Configuration
 @EnableTransactionManagement
-@MapperScan("com.*.*.repository.mapper*")
+@MapperScan("com.**.repository.mapper*")
 public class MybatisPlusConfig {
 
 
